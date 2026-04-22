@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>A read on where AI fits in Invelon's training pipeline | Prepared by Eduba</title>
+  <meta name="description" content="Saw the DPVR exclusive went live in February and you're shipping training content into Spain and Italy across 48 people. I have a hypothesis about where that content pipeline will break." />
+  <meta name="robots" content="noindex" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <div class="site-header__logo">
+      <img src="logo.png" alt="Invelon Technologies" />
+    </div>
+    <div class="site-header__meta">
+      Prepared for <strong>Invelon</strong> &middot; eMerge Americas 2026 &middot; Booth 338
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero__inner">
+    <div>
+      <p class="eyebrow">A working note</p>
+      <h1>A read on where AI fits in Invelon's training pipeline<span class="accent">:</span> and where the pipeline itself is the bottleneck.</h1>
+      <p class="hero__lede">
+        Invelon is an XR studio shipping VR, AR, and mixed-reality applications into industry, healthcare, museums, and education from Lleida, Barcelona, Milan, and New York. The product lines (Aurora VR for CAD validation, Training VR for vocational simulators, ShowRoom VR, AR Catalogue, Tour 360&deg;) cover a serious range of sectors. The DPVR exclusive distribution for Spain and Italy added a hardware revenue line in February 2025. The US pipeline push is visible in the NY office and the eMerge presence. All of that is real.
+      </p>
+    </div>
+    <aside class="hero__aside">
+      <dl>
+        <dt>Prepared for</dt><dd>Invelon Technologies</dd>
+        <dt>Conversation</dt><dd>Methodology partnership</dd>
+        <dt>Booth</dt><dd>338, eMerge Americas 2026</dd>
+        <dt>Author</dt><dd>Eduba, via Matt Creamer</dd>
+      </dl>
+    </aside>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section__inner">
+    <p class="section__label">The Eduba frame</p>
+    <h2 class="section__heading">A working view of the Invelon stack.</h2>
+    <p>
+      Roughly 60% of a new VR simulator build is traditional software work: Unity and Unreal scene assembly, asset pipelines, data model scaffolding, integration with Dynamics 365 Remote Assist or TeamViewer Frontline xPick. Another 30% is rule-based logic: branching scenarios, safety checks, procedural validation. Only the last 10% is genuine AI territory: LLM-driven dialogue, generative scenario authoring, instructor copilots that generate new content on demand.
+    </p>
+    <p>
+      Most XR studios today are either stuck in the 60% tier (shipping bespoke one-offs) or trying to force the 10% tier prematurely. The interesting work at Invelon's scale is the 30% layer: a rule-based authoring system, structured as folders rather than as a monolithic tool, that lets a junior engineer in Milan assemble a new scenario from existing modules. That is a methodology problem, not a framework problem.
+    </p>
+
+    <div class="frame" aria-label="Three layers of a VR simulator build">
+      <div class="frame__cell">
+        <div class="pct">60%</div>
+        <h3>Traditional software</h3>
+        <p>Scene assembly, asset pipelines, integrations with Dynamics 365 Remote Assist and TeamViewer Frontline xPick.</p>
+      </div>
+      <div class="frame__cell frame__cell--accent">
+        <div class="pct">30%</div>
+        <h3>Rule-based logic</h3>
+        <p>Branching scenarios, safety checks, procedural validation. The authoring layer that compounds across clients.</p>
+      </div>
+      <div class="frame__cell">
+        <div class="pct">10%</div>
+        <h3>Genuine AI</h3>
+        <p>LLM-driven dialogue, generative scenario authoring, instructor copilots that generate new content on demand.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--muted">
+  <div class="section__inner">
+    <p class="section__label">The case</p>
+    <h2 class="section__heading">Correlation One with Pacific Life and Colgate-Palmolive.</h2>
+    <p>
+      The engagement worked because the enablement structure was designed as layered context that different roles could read at different depths. The same structural approach maps onto VR content authoring: scenario primitives, sector overlays, client-specific reskins, all readable by the engineering team and the training director without a handoff meeting.
+    </p>
+
+    <div class="case">
+      <div class="case__stats">
+        <div class="case__stat">
+          <span class="n">1,500+</span>
+          <span class="k">people trained since May 2025</span>
+        </div>
+        <div class="case__stat">
+          <span class="n">6,000 to 9,000</span>
+          <span class="k">hours saved per year</span>
+        </div>
+        <div class="case__stat">
+          <span class="n">95%</span>
+          <span class="k">30-day adoption rate</span>
+        </div>
+      </div>
+      <div>
+        <p>
+          The map to Invelon is not perfect. Invelon trains through VR headsets while Correlation One trained through enterprise AI enablement. The relevance is that both are delivering workforce enablement at scale across regulated and multi-site clients, and the Correlation One engagement proves Eduba can build the orchestration around a training delivery partner rather than replacing them. This is the exact shape of a potential Invelon and Eduba referral for North American deployments.
+        </p>
+      </div>
+    </div>
+
+    <div class="paper">
+      <p class="section__label">The paper</p>
+      <h3>Interpretable Context Methodology (ICM).</h3>
+      <p>
+        ICM treats agent context as a layered filesystem, which is the same structural problem Invelon is quietly solving every time a new training scenario is built by cloning a previous one. If Invelon wants to move from bespoke-per-client to a composable authoring layer, ICM gives the folder-structure-as-architecture spine and a published methodology to cite in client pitches.
+      </p>
+      <p>
+        Submitted to ACM TiiS. Repo at <a href="https://github.com/RinDig/Interpretable-Context-Methodology-ICM-" target="_blank" rel="noopener">github.com/RinDig/Interpretable-Context-Methodology-ICM-</a>.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="talk">
+  <div class="cta__inner">
+    <div>
+      <h2>30 minutes with Matt.</h2>
+      <p>
+        Bring one scenario that was rebuilt for a second client. We will map what a composable authoring layer would have saved on the second delivery.
+      </p>
+    </div>
+    <div class="cta__action">
+      <a class="cta__button" href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">Book the 30 minutes</a>
+      <div class="cta__person">
+        <strong>Matt Creamer</strong>
+        Chief Revenue Officer, Eduba<br />
+        <a href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">calendly.com/thecro-eduba/30min</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div>Prepared by Eduba &middot; <a href="https://eduba.io" target="_blank" rel="noopener">eduba.io</a></div>
+    <div>For Invelon Technologies &middot; Booth 338, eMerge Americas 2026</div>
+  </div>
+</footer>
+
+</body>
+</html>
